@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zZQ5fS/c6w8bzKq7ORU8uNO1ICh1yT4cN30AFGVn+BA=",
+  "Source": "HotChocolateAPI",
+  "BasePath": "_content/HotChocolateAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
