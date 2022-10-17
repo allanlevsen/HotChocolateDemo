@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hZkGilqSg8TAzvbV5OOUrk0ZsgnSOHagsNAPsRp9TLW5D4LZm8BTaJMPRFmgw4svkCve8bWtiiiGlsiY/A63/w==",
+  "dgSpecHash": "90S0SovumaMKdx3flGwrVC6V+G/JKguF4j7i7vFMQjS3JCAeJdUxVQ/qX+OWztQoD+tM4cXARviS7Iwa00pZLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

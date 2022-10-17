@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y1YuHfF7tiZeI7ykW2xtPZh76CMhRpciuNmdAeQApbfTPIBN+3J+pBvCU4R05hqmIEaXW3/tK4WeHBePyw/PbQ==",
+  "dgSpecHash": "YfT01RCFPsdfzhTU8SJLy9dgnb1FkS5j7Do2EKxWkapYefvcuMdIHg89tm7JGeeBf0gofOU6vD90JYau4sKKIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\2-HotChocolateSolution-Basic\\Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\2-HotChocolateSolution-Basic\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vmuser\\.nuget\\packages\\greendonut\\12.14.0\\greendonut.12.14.0.nupkg.sha512",
     "C:\\Users\\vmuser\\.nuget\\packages\\hotchocolate\\12.14.0\\hotchocolate.12.14.0.nupkg.sha512",

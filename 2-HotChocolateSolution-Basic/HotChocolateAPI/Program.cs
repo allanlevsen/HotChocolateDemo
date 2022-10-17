@@ -8,7 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // allows GraphQL to use the Pooled dbContext so that we can
-// run multiple queries in parallel 
+// run multiple queries in parallel - thank you Ef Core 5 :)
+//
 builder.Services.AddPooledDbContextFactory<ApiDataContext>(
     options => options.UseSqlServer(connectionString)
 );
@@ -54,5 +55,9 @@ app.UseHttpsRedirection();
 app.UseCors("originPolicy");
 
 app.MapControllers();
+
+// GraphQL 
+//
 app.MapGraphQL("/graphql");
+
 app.Run();

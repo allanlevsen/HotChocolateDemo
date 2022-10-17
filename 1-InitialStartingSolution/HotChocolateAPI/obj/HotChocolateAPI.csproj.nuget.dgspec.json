@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\HotChocolateAPI\\HotChocolateAPI.csproj": {}
+    "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\HotChocolateAPI\\HotChocolateAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Data\\Data.csproj": {
+    "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\vmuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Data\\obj\\",
+        "outputPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vmuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Domain\\Domain.csproj"
+              "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Domain\\Domain.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Domain\\Domain.csproj": {
+    "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\vmuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vmuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\HotChocolateAPI\\HotChocolateAPI.csproj": {
+    "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\HotChocolateAPI\\HotChocolateAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\HotChocolateAPI\\HotChocolateAPI.csproj",
+        "projectUniqueName": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\HotChocolateAPI\\HotChocolateAPI.csproj",
         "projectName": "HotChocolateAPI",
-        "projectPath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\HotChocolateAPI\\HotChocolateAPI.csproj",
+        "projectPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\HotChocolateAPI\\HotChocolateAPI.csproj",
         "packagesPath": "C:\\Users\\vmuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\HotChocolateAPI\\obj\\",
+        "outputPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\HotChocolateAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vmuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,8 +168,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\vmuser\\source\\repos\\HotChocolateAPI\\1-InitialStartingSolution\\Data\\Data.csproj"
+              "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\1-InitialStartingSolution\\Data\\Data.csproj"
               }
             }
           }
