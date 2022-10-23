@@ -2,6 +2,7 @@
 using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace HotChocolateAPI.Controllers
 {
@@ -11,9 +12,9 @@ namespace HotChocolateAPI.Controllers
     {
         private readonly ApiDataContext context;
 
-        public UserController(ApiDataContext context)
+        public UserController(IDbContextFactory<ApiDataContext> contextFactory)
         {
-            this.context = context;
+            this.context = contextFactory.CreateDbContext();
         }
 
         [HttpGet]
