@@ -44,3 +44,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+/2-HotChocolateSolution-Basic/.vs/HotChocolateAPI/FileContentIndex/f27862a5-ab0a-45f5-b208-191bd837e832.vsidx
+/2-HotChocolateSolution-Basic/.vs/HotChocolateAPI/FileContentIndex/b1921393-e1e3-42f4-ad31-cc07df3f6770.vsidx
+/2-HotChocolateSolution-Basic/.vs/HotChocolateAPI/FileContentIndex/42d362cc-2bfd-4c7c-9f80-8b5afd9324ef.vsidx
+/2-HotChocolateSolution-Basic/.vs/HotChocolateAPI/FileContentIndex/3dacb282-b89e-4173-8738-881b3203d574.vsidx
