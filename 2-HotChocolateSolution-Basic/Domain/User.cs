@@ -8,7 +8,7 @@
 
         public string LastName { get; set; } = String.Empty;
 
-        [UseSorting]
+        //[UseSorting]
         public ICollection<Todo> Todos { get; set; } = new List<Todo>();
     }
 }

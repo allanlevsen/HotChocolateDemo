@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\2-HotChocolateSolution-Basic\\Domain\\Domain.csproj": {}
+    "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemo\\2-HotChocolateSolution-Basic\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\2-HotChocolateSolution-Basic\\Domain\\Domain.csproj": {
+    "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemo\\2-HotChocolateSolution-Basic\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\2-HotChocolateSolution-Basic\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemo\\2-HotChocolateSolution-Basic\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\2-HotChocolateSolution-Basic\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemo\\2-HotChocolateSolution-Basic\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\vmuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest\\2-HotChocolateSolution-Basic\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemo\\2-HotChocolateSolution-Basic\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vmuser\\AppData\\Roaming\\NuGet\\NuGet.Config",

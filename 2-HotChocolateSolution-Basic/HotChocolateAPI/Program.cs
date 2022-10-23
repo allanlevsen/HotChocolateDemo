@@ -15,21 +15,26 @@ builder.Services.AddPooledDbContextFactory<ApiDataContext>(
 );
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddControllers();
-builder.Services.AddCors(option =>
-{
-    option.AddPolicy(name: "originPolicy", builder =>
-    {
-        builder.SetIsOriginAllowed(origin => 
-            new Uri(origin).Host == "localhost"
-        );
-        builder.AllowAnyHeader();
-        builder.AllowAnyMethod();
-    });
-});
+builder.Services.AddCors();
 
 builder.Services.AddEndpointsApiExplorer();
 
 // GraphQL 
+//
+
+// stage 1
+//
+//builder.Services.AddGraphQLServer()
+//    .AddQueryType<Query>();
+
+// stage 2
+//
+//builder.Services.AddGraphQLServer()
+//    .AddQueryType<Query>()
+//    .AddFiltering()
+//    .AddSorting();
+
+// stage 3
 //
 builder.Services.AddGraphQLServer()
     .AddQueryType<Query>()
@@ -40,19 +45,11 @@ builder.Services.AddGraphQLServer()
 
 var app = builder.Build();
 
-// if environment is development and the database if empty -> seed data
-//
-if (app.Environment.IsDevelopment())
-{
-    await ApiDataContext.CheckAndSeedDatabaseAsync(
-        app.Services
-        .GetRequiredService<IDbContextFactory<ApiDataContext>>()
-        .CreateDbContext()
-    );
-}
-
 app.UseHttpsRedirection();
-app.UseCors("originPolicy");
+app.UseCors(x => x
+   .AllowAnyOrigin()
+   .AllowAnyMethod()
+   .AllowAnyHeader());
 
 app.MapControllers();
 

@@ -2,6 +2,32 @@
 
 namespace Data.GraphQL
 {
+    // stage 1 
+    //
+    //public class Query
+    //{
+    //    [UseDbContext(typeof(ApiDataContext))]
+    //    public IQueryable<User> GetUsers([ScopedService] ApiDataContext context)
+    //    {
+    //        return context.Users;
+    //    }
+    //}
+
+    // stage 2  
+    //
+    //public class Query
+    //{
+    //    [UseDbContext(typeof(ApiDataContext))]
+    //    [UseSorting]
+    //    [UseFiltering]
+    //    public IQueryable<User> GetUsers([ScopedService] ApiDataContext context)
+    //    {
+    //        return context.Users;
+    //    }
+    //}
+
+    // stage 3  
+    //
     public class Query
     {
         // UseDbContext() Attribute is needed for parallel database usage
@@ -46,4 +72,5 @@ namespace Data.GraphQL
             return context.Todos;
         }
     }
+
 }

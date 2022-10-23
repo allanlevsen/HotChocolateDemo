@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\2-HotChocolateSolution-Basic",
+    "\\2-HotChocolateSolution-Basic\\Data",
+    "\\2-HotChocolateSolution-Basic\\Data\\GraphQL",
+    "\\2-HotChocolateSolution-Basic\\HotChocolateAPI"
   ],
-  "SelectedNode": "\\C:\\Users\\vmuser\\Source\\Repos\\HotChocolateDemoTest",
+  "SelectedNode": "\\2-HotChocolateSolution-Basic\\HotChocolateAPI.sln",
   "PreviewInSolutionExplorer": false
 }
