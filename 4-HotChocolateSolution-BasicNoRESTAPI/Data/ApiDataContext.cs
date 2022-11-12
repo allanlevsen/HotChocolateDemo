@@ -5,7 +5,8 @@ namespace Data
 {
     public class ApiDataContext : DbContext
     {
-        public ApiDataContext(DbContextOptions<ApiDataContext> options) : base(options)
+        public ApiDataContext(DbContextOptions<ApiDataContext> options) 
+            : base(options)
         {
         }
 
@@ -14,10 +15,6 @@ namespace Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Todo> Todos { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-        }
     }
 
 }

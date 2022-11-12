@@ -1,5 +1,11 @@
 USE [MacEwanHotChocolateApi]
 GO
+
+
+SELECT count(*) FROM [users]
+SELECT count(*) FROM [Todos]
+
+
 SET IDENTITY_INSERT [dbo].[Categories] ON 
 GO
 INSERT [dbo].[Categories] ([CategoryId], [Name], [Description]) VALUES (1, N'Personal', N'This Todo Category represents personnal todo items')
