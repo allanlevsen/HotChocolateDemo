@@ -4,8 +4,9 @@
     "\\2-HotChocolateSolution-Basic",
     "\\2-HotChocolateSolution-Basic\\Data",
     "\\2-HotChocolateSolution-Basic\\Data\\GraphQL",
-    "\\2-HotChocolateSolution-Basic\\HotChocolateAPI"
+    "\\2-HotChocolateSolution-Basic\\HotChocolateAPI",
+    "\\3-AngularCallingHotChocolateAPI",
+    "\\3-AngularCallingHotChocolateAPI\\Frontend-AngularApp"
   ],
-  "SelectedNode": "\\2-HotChocolateSolution-Basic\\HotChocolateAPI.sln",
   "PreviewInSolutionExplorer": false
 }
